@@ -38,8 +38,9 @@ This repository contains multiple datasets related to the brand's transactional 
      - Analyzing sales trends and patterns over time.
      - Comparing the total value of transactions.
 
-3. **`tv_publisher.csv`**  
+3. **`tv_publisher.csv`**
    This table contains data from the brand's television advertising.
+   - **`quantity`** Column
    - Represents the quantity or number of products in a transaction.
    - Indicates the total units/items sold in each transaction.
    - Used for:
