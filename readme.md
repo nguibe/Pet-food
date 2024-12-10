@@ -31,17 +31,29 @@ This repository contains multiple datasets related to the brand's transactional 
 
 1. **`retailer.csv`**  
    This table contains the brand's transactional data.
+   - **`sales`** Column:
+   - Represents the total monetary amount of the product(s) involved in a transaction.
+   - Useful for:
+     - Calculating total revenue.
+     - Analyzing sales trends and patterns over time.
+     - Comparing the total value of transactions.
 
-2. **`tv_publisher.csv`**  
+3. **`tv_publisher.csv`**  
    This table contains data from the brand's television advertising.
+   - Represents the quantity or number of products in a transaction.
+   - Indicates the total units/items sold in each transaction.
+   - Used for:
+      - Assessing product demand and popularity.
+      - Calculating average quantity per transaction.
+      - Evaluating stock turnover and inventory needs.
 
-3. **`programmatic_publisher.csv`**  
+5. **`programmatic_publisher.csv`**  
    This table contains data from the brand's programmatic advertising (i.e., online).
 
-4. **`socio_demo.csv`**  
+6. **`socio_demo.csv`**  
    This table contains socio-demographic information about individuals exposed to programmatic media.
 
-5. **`mapping_transac_publisher_tv.csv`**  
+7. **`mapping_transac_publisher_tv.csv`**  
    This mapping table is used to link the other tables together.
 
 ---
