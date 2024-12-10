@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+
+# Logs
+*.log
+
+# VSCode
+.vscode/
+
+# Data files
+*.csv
+*.db
+
+# Build artifacts
+/build/
+/dist/
